@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "Template",
+      "script": "./dist/index.js",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "cwd": "./",
+      "env": {
+        "DB_HOST": "localhost"
+      }
+    }
+  ]
+}

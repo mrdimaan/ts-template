@@ -1,0 +1,7 @@
+# Production directories
+node_modules/
+dist/
+# IDE Junk
+.vscode/launch.json
+.vscode/settings.json
+.sonarlint/
